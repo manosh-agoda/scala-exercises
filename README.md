@@ -5,7 +5,7 @@
 4. Implement GCD in Scala (hint: use tail recursion)
 5. Write a clause that measures the run time of a block of code and prints it (also needs to return the original output of the block)
 6. Given a string containing words separated by space, find:
-  a. The longest word
-  b. The most common word
-  c. The most common letter
-  d. Create a map from letter to a set of words it appears in
+  <br>a. The longest word
+  <br>b. The most common word
+  <br>c. The most common letter
+  <br>d. Create a map from letter to a set of words it appears in
