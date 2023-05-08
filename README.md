@@ -4,3 +4,8 @@
 3. Write the ~= operator for comparing doubles. The operator should return true iff 2 doubles are equal up to a small constant. The constant should be configurable but also have a default. (hint: use implicit parameter) Include tests.
 4. Implement GCD in Scala (hint: use tail recursion)
 5. Write a clause that measures the run time of a block of code and prints it (also needs to return the original output of the block)
+6. Given a string containing words separated by space, find:
+  a. The longest word
+  b. The most common word
+  c. The most common letter
+  d. Create a map from letter to a set of words it appears in
