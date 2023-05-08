@@ -1,6 +1,5 @@
 package exercise2
 
-import exercise1.MyQueueWithArray
 import exercise1.Queue
 
 trait Reversing extends Queue[String] {

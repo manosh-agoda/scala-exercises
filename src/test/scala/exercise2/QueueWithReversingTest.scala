@@ -5,9 +5,9 @@ import exercise1.MyQueueWithArray
 class QueueWithReversingTest extends UnitSpec {
 
   "A Queue with Reversing" should "pop values in first-in-first-out order with strings reversed" in {
-    val myQueue = new MyQueueWithArray with Reversing {}
-    myQueue.put("One")
-    myQueue.put("Two")
+    val myQueue = new MyQueueWithArray with Reversing
+    myQueue put "One"
+    myQueue put "Two"
     assert(myQueue.get === "enO")
     assert(myQueue.get === "owT")
     assertThrows[NoSuchElementException] {
@@ -17,9 +17,9 @@ class QueueWithReversingTest extends UnitSpec {
 
   "A Queue with Reversing" should "pop values in first-in-first-out order even when put and get alternatively" in {
     val myQueue = new MyQueueWithArray
-    myQueue.put("One")
+    myQueue put "One"
     assert(myQueue.get === "One")
-    myQueue.put("Two")
+    myQueue put "Two"
     assert(myQueue.get === "Two")
     assertThrows[NoSuchElementException] {
       myQueue.get
