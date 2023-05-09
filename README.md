@@ -9,3 +9,4 @@
   <br>b. The most common word
   <br>c. The most common letter
   <br>d. Create a map from letter to a set of words it appears in
+7. Convert a list of strings to a list of all the characters in all the strings
